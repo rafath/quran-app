@@ -21,3 +21,30 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/.idea
+/quran-api/tmp
+
+# Ignore node_modules
+/quran-api/node_modules/
+
+# Ignore precompiled javascript packs
+/quran-api/public/packs
+/quran-api/public/packs-test
+/quran-api/public/assets
+
+# Ignore yarn files
+/quran-api/yarn-error.log
+/quran-apiyarn-debug.log*
+/quran-api.yarn-integrity
+
+# Ignore uploaded files in development
+/quran-api/storage/*
+/quran-api!/storage/.keep
+
+/quran-api/public/packs
+/quran-api/public/packs-test
+/quran-api/yarn-error.log
+/quran-apiyarn-debug.log*
+/quran-api.yarn-integrity
+/quran-api/.idea/*

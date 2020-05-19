@@ -1,0 +1,23 @@
+production:
+  api_key: <%= ENV['ROR_VS_WILD_API_KEY'] %>
+# ignore_requests:
+#   - SecretController#index
+# ignore_jobs:
+#   - SecretJob
+# ignore_exceptions:
+#   - ActionController::RoutingError  # Ignore by default any 404
+#   - ZeroDivisionError
+# ignore_plugins: # Ignore monitoring chosen plugins
+#   - Sidekiq
+#   - ActionController
+#   - ActionMailer
+#   - ActionView
+#   - ActiveJob
+#   - ActiveRecord
+#   - DelayedJob
+#   - Elasticsearch
+#   - Mongo
+#   - NetHttp
+#   - Redis
+#   - Resque
+#   - Sidekiq

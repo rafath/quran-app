@@ -48,3 +48,4 @@ yarn-error.log*
 /quran-apiyarn-debug.log*
 /quran-api.yarn-integrity
 /quran-api/.idea/*
+/quran-api/public/files/*

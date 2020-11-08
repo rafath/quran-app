@@ -9,5 +9,6 @@ class AyetSerializer
   attribute :ayet_mp3_url do |object|
     "#{Rails.configuration.api_url}files/sounds/mp3/#{object.ayet_mp3}"
   end
+
   set_type :ayet
 end
